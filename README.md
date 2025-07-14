@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🏎️ F1News – Aplicativo de Notícias da Fórmula 1
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo desenvolvido em **React Native com Expo** para listar notícias da Fórmula 1.  
+Simula uma API de notícias e renderiza os dados com componentes reutilizáveis.
 
-## Get started
+> Projeto em andamento – futuras versões terão busca automática por notícias reais da web.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+#  Preview
+📸 *(Em breve: print do app rodando no celular)*
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+# Tecnologias utilizadas
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- Axios (em versões futuras)
+- FlatList
+- Componente reutilizável (NewsCard)
+- JSON local para simular API
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Como rodar o projeto
 
-## Get a fresh project
 
-When you're ready, run:
+# Clone o repositório
+git clone https://github.com/sandro-oliveira763/f1news-react-native.git
 
-```bash
-npm run reset-project
-```
+# Acesse a pasta
+cd f1news-react-native
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Instale as dependências
+npm install
 
-## Learn more
+# Inicie o app com Expo
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+ Funcionalidades atuais
+Lista de notícias mockadas em JSON
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Componente separado para renderização de cada notícia
 
-## Join the community
+Abertura de link externo ao tocar no cartão
 
-Join our community of developers creating universal apps.
+Próximas etapas
+Backend com Node.js para varrer sites de notícias automaticamente
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Agendamento diário com node-cron
+
+Navegação por categorias (GPs, pilotos, equipes)
+
+Internacionalização: 🇵🇹 🇧🇷 🇪🇸 🇮🇹 🇬🇧
+
+Autor
+Sandro Oliveira
+📍 Desenvolvedor em formação | Apaixonado por F1
+🔗 LinkedIn - www.linkedin.com/in/sandroramosoliveira
